@@ -1,6 +1,8 @@
 import Jumbotron from "../components/Jumbotron";
+import ProductCard from "../components/ProductCard";
 
 export default function Products() {
+
     return (
         <>
             <Jumbotron
@@ -8,8 +10,13 @@ export default function Products() {
                 subtitle="Scopri la nostra selezione di prodotti di alta qualità."
                 buttonText="Acquista ora"
             />
-            <h1>Products</h1>
-            <p>Here you can find a variety of products.</p>
+            <h1>Prodotti</h1>
+            <p>Qui puoi trovare una varietà di prodotti.</p>
+            <div className="container">
+                <div className="row">
+                    <ProductCard />
+                </div>
+            </div>
         </>
     );
 }

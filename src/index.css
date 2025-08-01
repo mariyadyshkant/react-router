@@ -13,6 +13,12 @@
   background-position: center;
 }
 
+.card-title {
+  height: 60px;
+  overflow: scroll;
+
+}
+
 /* .carousel-inner {
   position: relative;
   width: 100%;
