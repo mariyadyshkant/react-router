@@ -9,7 +9,7 @@ export default function HomePage() {
                 subtitle="Il tuo negozio unico per tutte le esigenze."
                 buttonText="Esplora ora"
             />
-            {/* <FeaturedProducts /> */}
+            <FeaturedProducts />
         </>
     )
 }

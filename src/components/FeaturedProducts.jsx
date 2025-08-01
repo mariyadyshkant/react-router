@@ -7,7 +7,6 @@ export default function FeaturedProducts() {
         fetch("https://fakestoreapi.com/products")
             .then(res => res.json())
             .then(data => {
-                // Mischia e prendi 6 prodotti
                 const shuffled = data.sort(() => 0.5 - Math.random());
                 const selected = shuffled.slice(0, 6);
                 setProducts(selected);
