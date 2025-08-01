@@ -3,6 +3,7 @@ import DefaultLayout from './layouts/DefaultLayout';
 import HomePage from './pages/HomePage';
 import Products from './pages/Products';
 import ChiSiamo from './pages/ChiSiamo';
+import SingleProductPage from './pages/SingleProductPage';
 
 import './index.css'
 
@@ -15,6 +16,7 @@ export default function App() {
             <Route index element={<HomePage />} />
             <Route path="prodotti" element={<Products />} />
             <Route path="chi-siamo" element={<ChiSiamo />} />
+            <Route path="prodotti/:id" element={<SingleProductPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
